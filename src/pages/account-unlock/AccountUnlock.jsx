@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
-import styles from "styles.module.css";
+import styles from "../../styles.module.css";
 import {useHistory, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {logIn, getAvatar} from "helpers/apiCalls";
+import {logIn, getAvatar} from "../../helpers/apiCalls";
 
 function getAccount(state) {
   return state.account;

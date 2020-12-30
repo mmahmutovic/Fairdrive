@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import styles from "styles.module.css";
+import styles from "../../../styles.module.css";
 import createAccount from "../account.module.css";
 import QRCode from "react-qr-code";
-import {getAvatar} from "helpers/apiCalls";
+import {getAvatar} from "../../../helpers/apiCalls";
 
 const MyIdentity = ({
   nextStage,

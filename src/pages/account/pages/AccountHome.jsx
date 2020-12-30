@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import styles from "styles.module.css";
+import styles from "../../../styles.module.css";
 import createAccount from "../account.module.css";
 import {AccountCircle, AccountBalanceWallet, Loyalty, VerifiedUser} from "@material-ui/icons";
 import {Route, NavLink} from "react-router-dom";

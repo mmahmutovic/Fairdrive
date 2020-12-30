@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import {useHistory} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import defaultAvatar from "images/defaultAvatar.png";
-import {createAccount, createDirectory, createPod, isUsernamePresent, storeAvatar} from "helpers/apiCalls";
+import defaultAvatar from "../../images/defaultAvatar.png";
+import {createAccount, createDirectory, createPod, isUsernamePresent, storeAvatar}  from "../../helpers/apiCalls";
 
 // Sub-pages
 import AccountCreateIntro from "./pages/AccountCreateIntro";

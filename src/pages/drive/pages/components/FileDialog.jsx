@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
 import styles from "../../drive.module.css";
-import urlPath from "helpers/urlPath";
-import rootStyles from "styles.module.css";
+import urlPath from "../../../../helpers/urlPath";
+import rootStyles from "../../../../styles.module.css";
 import prettyBytes from "pretty-bytes";
 import moment from "moment";
 import {
@@ -38,7 +38,7 @@ import {
   mdiZipBox
 } from "@mdi/js";
 import Icon from "@mdi/react";
-import {fileDownload} from "helpers/apiCalls";
+import {fileDownload} from "../../../../helpers/apiCalls";
 
 export default function FileDialog({open, path, item, refresh, onClose}) {
   const homeId = "homeId";

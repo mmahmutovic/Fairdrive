@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from "react";
-import styles from "styles.module.css";
+import styles from "../../styles.module.css";
 import {useHistory} from "react-router-dom";
 
 import {useDispatch, useSelector} from "react-redux";
 import {Dialog} from "@material-ui/core";
 import {Input} from "react-advanced-form-addons";
 
-import {logIn, getAvatar} from "helpers/apiCalls";
+import {logIn, getAvatar} from "../../helpers/apiCalls";
 
 function getAccount(state) {
   return state.account;

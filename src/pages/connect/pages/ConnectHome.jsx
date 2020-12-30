@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import main from "styles.module.css";
+import main from "../../../styles.module.css";
 import connect from "../connect.module.css";
 import { useDispatch } from "react-redux"
 

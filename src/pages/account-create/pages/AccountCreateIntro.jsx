@@ -1,5 +1,5 @@
 import React from "react";
-import main from "styles.module.css";
+import main from "../../../styles.module.css";
 import accountstyles from "../account-create.module.css";
 import {useHistory} from "react-router-dom";
 

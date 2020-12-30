@@ -11,7 +11,7 @@ import ShortCode from "./pages/ShortCode";
 import ResolveShort from "./pages/ResolveShort";
 
 // Api
-import {getAvatar, storeAvatar, logOut} from "helpers/apiCalls";
+import {getAvatar, storeAvatar, logOut} from "../../helpers/apiCalls";
 
 // Ids
 const accountHome = "accountHome";

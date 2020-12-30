@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
-import main from "styles.module.css";
+import main from "../../../styles.module.css";
 import accountstyles from "../account-create.module.css";
 import ethers from "ethers";
-import generateMnemonic from "helpers/utils";
+import generateMnemonic from "../../../helpers/utils";
 
 export function MnemonicShow({
   nextStage,

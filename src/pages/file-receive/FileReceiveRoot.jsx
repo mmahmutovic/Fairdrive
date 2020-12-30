@@ -4,7 +4,7 @@ import {useHistory, useParams} from "react-router-dom";
 
 import FileReceiveAccept from "./pages/FileReceiveAccept";
 
-import {receiveFileInfo, receiveFile} from "helpers/apiCalls";
+import {receiveFileInfo, receiveFile} from "../../helpers/apiCalls";
 const fileReceiveAcceptId = "fileReceiveAcceptId";
 const waitingId = "waitingId";
 

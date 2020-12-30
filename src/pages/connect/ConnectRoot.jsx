@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
-import TodolistIcon from "images/todolist.png"
+import TodolistIcon from "../../images/todolist.png"
 
 // Sub-pages
 import ConnectHome from './pages/ConnectHome';

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "styles.module.css";
+import styles from "../../../styles.module.css";
 import accountstyles from "../account-create.module.css";
 
 export function ChoosePassword({

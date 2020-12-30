@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
 import styles from "../../drive.module.css";
-import rootStyles from "styles.module.css";
-import urlPath from "helpers/urlPath";
+import rootStyles from "../../../../styles.module.css";
+import urlPath from "../../../../helpers/urlPath";
 
 import {CircularProgress, LinearProgress} from "@material-ui/core";
 
@@ -17,7 +17,7 @@ import {
   mdiZipBox
 } from "@mdi/js";
 import Icon from "@mdi/react";
-import {createDirectory, deleteDirectory, deleteFile, fileUpload, shareFile} from "helpers/apiCalls";
+import {createDirectory, deleteDirectory, deleteFile, fileUpload, shareFile} from "../../../../helpers/apiCalls";
 
 export default function FolderDialog({open, path, refresh, onClose, item}) {
   console.log("from newdialog: ", open, path);

@@ -1,14 +1,14 @@
 import React, {useRef, useState} from "react";
 import styles from "../../drive.module.css";
-import urlPath from "helpers/urlPath";
-import rootStyles from "styles.module.css";
+import urlPath from "../../../../helpers/urlPath";
+import rootStyles from "../../../../styles.module.css";
 
 import {LinearProgress} from "@material-ui/core";
 
 import {Dialog} from "@material-ui/core";
 import {mdiFolderPlus, mdiUpload} from "@mdi/js";
 import Icon from "@mdi/react";
-import {createDirectory, fileUpload} from "helpers/apiCalls";
+import {createDirectory, fileUpload} from "../../../../helpers/apiCalls";
 
 export default function NewDialog({open, path, refresh, onClose}) {
   const homeId = "homeId";

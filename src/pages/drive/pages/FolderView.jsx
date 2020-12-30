@@ -3,8 +3,8 @@ import styles from "../drive.module.css";
 import {Route, NavLink} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {useHistory} from "react-router-dom";
-import sortByProp from "helpers/sortByProp";
-import urlPath from "helpers/urlPath";
+import sortByProp from "../../../helpers/sortByProp";
+import urlPath from "../../../helpers/urlPath";
 import NewDialog from "./components/NewDialog";
 import FolderDialog from "./components/FolderDialog";
 import FileDialog from "./components/FileDialog";
@@ -44,8 +44,8 @@ import {
 } from "@material-ui/icons/";
 
 import {CircularProgress, LinearProgress} from "@material-ui/core";
-import defaultAvatar from "images/defaultAvatar.png";
-import {createDirectory, deleteDirectory, fileUpload} from "helpers/apiCalls";
+import defaultAvatar from "../../../images/defaultAvatar.png";
+import {createDirectory, deleteDirectory, fileUpload} from "../../../helpers/apiCalls";
 
 export function FolderView({
   nextStage,

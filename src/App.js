@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { Route, useHistory, useLocation } from "react-router-dom";
-import pages from "pages";
-import styles from "styles.module.css";
+import pages from "./pages";
+import styles from "./styles.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import { green, orange } from "@material-ui/core/colors";
-import { logIn, isLoggedIn } from "helpers/apiCalls";
+import { logIn, isLoggedIn } from "./helpers/apiCalls";
 
 const outerTheme = createMuiTheme({
   palette: {
@@ -68,7 +68,7 @@ function App() {
   }, [account.status]);
 
   return (
-    < ThemeProvider theme={
+    <ThemeProvider theme={
       outerTheme
     } > {
         " "
@@ -89,8 +89,7 @@ function App() {
               } />))
         } {
           " "
-        } < /div>{" "} <
-        /ThemeProvider >);
+        } </div>{" "} </ThemeProvider>);
 }
 
 export default App;

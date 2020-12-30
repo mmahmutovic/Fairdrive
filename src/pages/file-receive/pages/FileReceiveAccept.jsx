@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../filereceive.module.css";
-import main from "styles.module.css";
+import main from "../../../styles.module.css";
 import prettyBytes from "pretty-bytes";
 
 export function FileReceiveAccept({
